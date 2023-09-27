@@ -1,0 +1,37 @@
+
+#container{
+    border: 0px solid red;
+    width: 60%;
+    height: 550px;
+    margin: auto;
+    background-color: black;
+    color: white;
+}
+
+
+#inputbox{
+    width: 30%;
+    margin-left: 75px;
+    padding: 10px;
+    outline: none;
+}
+
+
+
+
+#resetbutton{
+    float: right;
+     color: red;
+     margin-right: 20px;
+     padding: 10px;
+     border: 1px solid #fff;
+     outline: none;
+}
+
+#resetbutton:hover{
+    background-color: red;
+    color: #fff;
+   border-radius: 5px;
+   cursor: pointer;
+    
+}

@@ -1,0 +1,18 @@
+.activeTodos{
+  /* border: 1px solid red; */
+}
+
+.height {
+    height: 115px;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 5px; /* Width of the scrollbar */
+  }
+  
+  /* Modify scrollbar thumb (the draggable part) */
+  ::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the thumb */
+    border-radius: 6px; /* Rounded corners for the thumb */
+  }

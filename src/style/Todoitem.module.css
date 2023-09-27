@@ -1,0 +1,26 @@
+.Ctodocontainer{
+display: flex;
+justify-content: center;
+align-items: center;
+border: 0px dotted greenyellow;
+width: 35%;
+margin: auto;
+
+}
+
+.CItem{
+    width: 230px;
+    border: 0px solid red;
+    border: 0px dotted greenyellow;
+}
+.delimg{
+    width: 20px;
+    
+}
+.delimg:hover{
+    cursor: pointer;
+}
+
+.Item:hover{
+    cursor: pointer;
+}
