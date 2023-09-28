@@ -14,6 +14,7 @@ A simple TODO application built with React, featuring task management with the a
 - **Reset data to initial state with reset button.
 - ![Screenshot (979)](https://github.com/Abhishekjha1996/Tailnodetodo-Assigment/assets/110034812/6f3dda0b-d38f-4d40-ba7f-b4cd3548b6e0)
 - **Data Persistence:** Your TODOs are saved in local storage, so they persist across page refreshes.
+- **Responsive Design:** The app is designed to work seamlessly on both desktop and mobile devices.
 
 
 ## Technology Stack
@@ -27,4 +28,4 @@ A simple TODO application built with React, featuring task management with the a
 
 npm start to run app
 
-deployed link: https://tailnodetode-5e6jwswoy-abhishekjha1996.vercel.app/
+deployed link: https://tailnodetode-mb0wikh97-abhishekjha1996.vercel.app/
