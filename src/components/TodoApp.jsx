@@ -52,7 +52,7 @@ const TodoApp = () => {
 
   return (
     <div id={Style.container}>
-      <h1>TODO APPLICATION</h1>
+      <h1 id={Style.todoheading}>TODO APPLICATION</h1>
       <input
         id={Style.inputbox}
         type="text"

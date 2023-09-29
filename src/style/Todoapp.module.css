@@ -35,3 +35,28 @@
    cursor: pointer;
     
 }
+
+
+@media screen and (max-width: 600px) {
+
+    #container{
+        display: inline;
+    }
+
+    #todoheading{
+        font-size: large;
+    }
+    #resetbutton{
+        float: right;
+         color: red;
+         margin-right: 20px;
+         padding: 10px;
+         border: 1px solid #fff;
+         outline: none;
+    }
+
+
+
+  }
+
+  

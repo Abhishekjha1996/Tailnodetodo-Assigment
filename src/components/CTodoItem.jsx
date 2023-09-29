@@ -9,12 +9,17 @@ const CTodoItem = ({ text, completed, onClick }) => {
         className={Style.CItem}
         style={{
           textDecoration: completed ? "line-through" : "none",
-          "textDecorationColor": "red"
+          textDecorationColor: "red",
         }}>
         {text}
       </div>
 
-      <img className={Style.delimg} src={dletelogo} alt="logo" onClick={onClick} />
+      <img
+        className={Style.delimg}
+        src={dletelogo}
+        alt="logo"
+        onClick={onClick}
+      />
     </div>
   );
 };

@@ -11,7 +11,7 @@ const TodoList = ({
 }) => {
   return (
     <div>
-      <h2>Active TODOs</h2>
+      <h2 className={styles.headingtxt}>Active TODOs</h2>
       {activeTodos.length > 0 && (
         <div
           className={
@@ -30,7 +30,7 @@ const TodoList = ({
         </div>
       )}
 
-      <h2>Completed TODOs</h2>
+      <h2 className={styles.headingtxt}>Completed TODOs</h2>
       {completedTodos.length > 0 && (
         <div
           className={
